@@ -1,3 +1,4 @@
+import React from 'react';
 import '../resume.css';
 
 
@@ -8,6 +9,14 @@ function Header() {
         </header>
     );
 }
+function handleClickEmail() {
+    
+     window.alert('My Email : kraiyos.wanna@gmail.com')
+  }
+function handleClickPhone() {
+    
+    window.alert('My Phone : (+66) 99 149 9425')
+ }
 export function Introduction(){
     return(
         <div className='introduction'>
@@ -24,17 +33,32 @@ export function Introduction(){
                                 </button>
                     </a>
                     <a href='https://www.linkedin.com/in/kraiyos-wanna/'>
-                        <button  >
+                        <button >
                             <img className='icon-img' src="src\linkin.png" alt='LinkIn icon' >
                                 </img>
                                 </button>
                     </a>
-                    <Alert>
-                    GG<button><img className='icon-img' src="src\email.png" alt='email icon'></img></button></Alert>
-                    <img className='icon-img' src="src\phone.png" alt='phone icon'></img>
+                    <button onClick={handleClickEmail}>
+                        <img className="icon-img" src="src/email.png" alt="Email icon" />
+                    </button>
+                    <button onClick={handleClickPhone}>
+                        <img className="icon-img" src="src/phone.png" alt="Phone icon" />
+                    </button>
+                </div>
+                <div className='bt-group'>
+                    <button className='bt-sendrequest'>Send Request</button>
+                    <button className='bt-downloadCV'>Download CV</button>
                 </div>
             </div>
-        </div>
+            
+            <div className='right-introduction'>
+                <div className='background-picture'>
+                    <img className='picture-profile' src="src\toeyprofile.jpg"></img>
+                    <img className='bullet-point1' src="src\Bullet Points1.png"></img>
+                    <img className='bullet-point2' src="src\Bullet Points1.png"></img>
+                </div>
+            </div>
+         </div>
     );
 }
 
