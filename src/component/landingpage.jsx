@@ -53,9 +53,9 @@ export function Introduction(){
             
             <div className='right-introduction'>
                 <div className='background-picture'>
-                    <img className='picture-profile' src="src\Picture\toeyprofile.jpg"></img>
-                    <img className='bullet-point1' src="src\Picture\Bullet Points1.png"></img>
-                    <img className='bullet-point2' src="src\Picture\Bullet Points1.png"></img>
+                    <img className='picture-profile' src="src\Picture\toeyprofile.jpg" alt="picturn profile"></img>
+                    <img className='bullet-point1' src="src\Picture\Bullet Points1.png" alt ="Bullet background"></img>
+                    <img className='bullet-point2' src="src\Picture\Bullet Points1.png" alt ="Bullet background"></img>
                 </div>
             </div>
          </div>
