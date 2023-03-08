@@ -9,13 +9,13 @@ function Footer(){
                 <div>
                     <a href='https://github.com/KraiyosW'>
                                 <button >
-                                    <img className='icon-img' src="public\Picture\github.png" alt='github icon' >
+                                    <img className='icon-img' src="public\assets\Picture\github.png" alt='github icon' >
                                         </img>
                                         </button>
                             </a>
                             <a href='https://www.linkedin.com/in/kraiyos-wanna/'>
                                 <button >
-                                    <img className='icon-img' src="public\Picture\linkin.png" alt='LinkIn icon' >
+                                    <img className='icon-img' src="public\assets\Picture\linkin.png" alt='LinkIn icon' >
                                         </img>
                                         </button>
                             </a>

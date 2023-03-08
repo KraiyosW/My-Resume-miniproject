@@ -28,21 +28,21 @@ export function Introduction(){
                     <p className='text-normal'>Follow me : </p>
                     <a href='https://github.com/KraiyosW'>
                         <button >
-                            <img className='icon-img' src="public\Picture\github.png" alt='github icon' >
+                            <img className='icon-img' src="public\assets\Picture\github.png" alt='github icon' >
                                 </img>
                                 </button>
                     </a>
                     <a href='https://www.linkedin.com/in/kraiyos-wanna/'>
                         <button >
-                            <img className='icon-img' src="public\Picture\linkin.png" alt='LinkIn icon' >
+                            <img className='icon-img' src="public\assets\Picture\linkin.png" alt='LinkIn icon' >
                                 </img>
                                 </button>
                     </a>
                     <button onClick={handleClickEmail}>
-                        <img className="icon-img" src="public\Picture\email.png" alt="Email icon" />
+                        <img className="icon-img" src="public\assets\Picture\email.png" alt="Email icon" />
                     </button>
                     <button onClick={handleClickPhone}>
-                        <img className="icon-img" src="public\Picture\phone.png" alt="Phone icon" />
+                        <img className="icon-img" src="public\assets\Picture\phone.png" alt="Phone icon" />
                     </button>
                 </div>
                 <div className='bt-group'>
@@ -53,9 +53,9 @@ export function Introduction(){
             
             <div className='right-introduction'>
                 <div className='background-picture'>
-                    <img className='picture-profile' src="public\Picture\toeyprofile.jpg" alt="picturn profile"></img>
-                    <img className='bullet-point1' src="public\Picture\Bullet Points1.png" alt ="Bullet background"></img>
-                    <img className='bullet-point2' src="public\Picture\Bullet Points1.png" alt ="Bullet background"></img>
+                    <img className='picture-profile' src="public\assets\Picture\toeyprofile.jpg" alt="picturn profile"></img>
+                    <img className='bullet-point1' src="public\assets\Picture\Bullet Points1.png" alt ="Bullet background"></img>
+                    <img className='bullet-point2' src="public\assets\Picture\Bullet Points1.png" alt ="Bullet background"></img>
                 </div>
             </div>
          </div>
