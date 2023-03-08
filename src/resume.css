@@ -165,7 +165,6 @@ header{
  }
  .content-details{
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -176,7 +175,7 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
     margin-top: 10rem;
@@ -185,7 +184,7 @@ header{
     width: 20%;
     height: 20%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -231,4 +230,29 @@ header{
     white-space: pre-line;
     margin-top: 0.5rem;
     text-align: center;
+}
+.technical-profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+    padding-left:15rem ;
+}
+.technical-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+}
+.logo-technical-skills{
+    width: 70rem;
+    height: 80rem;
+    margin-right: 30rem;
+    margin-bottom: 15rem;
 }

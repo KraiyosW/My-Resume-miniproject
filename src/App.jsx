@@ -4,6 +4,7 @@ import React from 'react'
 import "./component/landingpage"
 import Header,{Introduction} from './component/landingpage'
 import ContentDetails from './component/content'
+import EducationProfile from './component/education'
 function App() {
  
 
@@ -12,7 +13,7 @@ function App() {
       <Header/>
       <Introduction/>
       <ContentDetails/>
-
+      <EducationProfile/>
     </div>
   )
 }
