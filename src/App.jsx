@@ -5,6 +5,7 @@ import "./component/landingpage"
 import Header,{Introduction} from './component/landingpage'
 import ContentDetails from './component/content'
 import EducationProfile from './component/education'
+import Footer from './component/footer'
 function App() {
  
 
@@ -14,6 +15,7 @@ function App() {
       <Introduction/>
       <ContentDetails/>
       <EducationProfile/>
+      <Footer/>
     </div>
   )
 }
