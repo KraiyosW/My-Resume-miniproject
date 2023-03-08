@@ -53,7 +53,7 @@ export function Introduction(){
             
             <div className='right-introduction'>
                 <div className='background-picture'>
-                    <img className='picture-profile' src="https://drive.google.com/file/d/1l5i0CdxPaNwdP_kvK9QoRs0PIB5UOG2V/view?usp=share_link" alt="picturn profile"></img>
+                    <img className='picture-profile' src="public\Picture\toeyprofile.jpg" alt="picturn profile"></img>
                     <img className='bullet-point1' src="public\Picture\Bullet Points1.png" alt ="Bullet background"></img>
                     <img className='bullet-point2' src="public\Picture\Bullet Points1.png" alt ="Bullet background"></img>
                 </div>
