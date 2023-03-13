@@ -34,7 +34,7 @@ export function Introduction(){
                     </a>
                     <a href='https://www.linkedin.com/in/kraiyos-wanna/'>
                         <button >
-                            <img className='icon-img' src="public\Picture\linkin.png" alt='LinkIn icon' >
+                            <img className='icon-img' src="/Picture/linkin.png" alt='LinkIn icon' >
                                 </img>
                                 </button>
                     </a>
