@@ -1,6 +1,7 @@
 {
-  "name": "my-resumw-project",
-  "private": true,
+  "homepage": " https://kraiyosw.github.io/My-Resume-miniproject/",
+  "name": "my-resume-project",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
